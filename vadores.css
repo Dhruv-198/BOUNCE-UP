@@ -1,0 +1,549 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  /* MAIN-2 */
+
+  .main-2 {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+  }
+  .portion1 {
+    height: 150px;
+    width: 100%;
+  }
+  .subpor2 {
+    height: 60px;
+    width: 200px;
+    margin-top: -38px;
+    font-size: 25px;
+  }
+  .portion2 {
+    height: 350px;
+    width: 100%;
+    overflow-y: scroll;
+  }
+  .portion2 img {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+  }
+  .portion3 {
+    height: 0px;
+    width: 100%;
+  }
+  .subpor3 {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+  .subpor3 i {
+    font-size: 30px;
+  }
+
+  /* MAIN-3 */
+
+  .main-3 {
+    height: 55vh;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .portion4 {
+    width: 90%;
+    height: 170px;
+    font-size: 25px;
+    margin-right: 0px;
+  }
+  .portion5 {
+    width: 80%;
+    height: 320px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  /* MAIN-4 */
+
+  .main-4 {
+    height: 32vh;
+    width: 100%;
+    background-image: url("Image/main4.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .main-4 img {
+    height: 267px;
+    width: 267px;
+    margin-right: 0px;
+    margin-left: -30px;
+    margin-top: 4px;
+  }
+
+  /* MAIN-5 */
+
+  .main-5 {
+    height: 150vh;
+    width: 100%;
+  }
+  .portion6 {
+    height: 10%;
+    width: 100%;
+    font-size: 45px;
+  }
+  .portion7 {
+    height: 150%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .subpor4,
+  .subpor5,
+  .subpor6,
+  .subpor7 {
+    height: 200%;
+    width: 100%;
+  }
+
+  .subpor4:hover,
+  .subpor5:hover,
+  .subpor6:hover,
+  .subpor7:hover {
+    width: 100%;
+  }
+
+  #portxt1 {
+    text-align: center;
+    font-size: 15px;
+    transform: rotate(270deg);
+  }
+
+  /* MAIN-6 */
+
+  .main-6 {
+    width: 100%;
+    height: 70vh;
+  }
+  .portion8 {
+    height: 250px;
+    width: 100%;
+  }
+  .portion8 p {
+    width: 80%;
+    font-size: 35px;
+  }
+
+  .portion9 {
+    height: 53vh;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #subimg1 img {
+    height: 170px;
+  }
+  #subimg2 {
+    height: 180px;
+    width: 73%;
+    margin-left: -10px;
+    z-index: 1;
+  }
+  #subimg3 {
+    height: 180px;
+    width: 60%;
+    margin-top: -36px;
+  }
+  #subimg4 img {
+    height: 165px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: -30px;
+  }
+  #subimg5 {
+    position: relative;
+  }
+  #subimg5 img {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    bottom: 350px;
+    right: 300px;
+  }
+
+  #subimg2:hover img {
+    height: 180px;
+    width: 100%;
+  }
+  #subimg3:hover img {
+    height: 180px;
+    width: 100%;
+  }
+
+  /* MAIN-7 */
+
+  .main-7 {
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+  }
+  .portion10 {
+    height: 150px;
+    width: 100%;
+    font-size: 40px;
+  }
+  .portion11 {
+    height: 80px;
+    width: 100%;
+    font-size: 25px;
+  }
+  .portion11 span {
+    height: 50px;
+    width: 130px;
+    margin: 0px 10px 0px 10px;
+    padding-top: 7px;
+  }
+  .preportion12 {
+    height: 400px;
+    width: 100%;
+  }
+  .portion12 {
+    height: 400px;
+    width: 170%;
+  }
+
+  .subpor8 {
+    height: 350px;
+    width: 50%;
+  }
+  #por8txt1 {
+    font-size: 25px;
+  }
+  #por8txt2 {
+    padding: 15px;
+    width: 80%;
+    font-size: 15px;
+  }
+  #por8txt3 {
+    display: flex;
+    margin-top: 50px;
+  }
+  #por8txt3 img {
+    height: 75px;
+    width: 75px;
+    margin-left: -20px;
+  }
+  #por8txt3 p {
+    font-family: "Neue Haas Unica", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  /* MAIN-9 */
+  .main-9 {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-9 .inner {
+    height: 300px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .main-9 .data {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .main-9 .data .det p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+  }
+
+  .main-9 .data .det i {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+  }
+}
+
+/* TABLATE-VIEW */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+/* MAIN-2 */
+
+.main-2 {
+  height: 70vh;
+  width: 100%;
+  background-color: rgb(38, 38, 38);
+}
+.portion1 {
+  height: 150px;
+  width: 100%;
+}
+.subpor2 {
+  height: 60px;
+  width: 200px;
+  margin-top: -38px;
+  font-size: 25px;
+}
+.portion2 {
+  height: 350px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.portion2 img {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+.portion3 {
+  height: 0px;
+  width: 100%;
+}
+.subpor3 {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+.subpor3 i {
+  font-size: 30px;
+}
+
+  /* MAIN-3 */
+
+  .main-3 {
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .portion4 {
+    width: 70%;
+    height: 150px;
+    font-size: 30px;
+    margin-right: 0px;
+  }
+  .portion5 {
+    width: 70%;
+    height: 320px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  /* MAIN-4 */
+
+  .main-4 {
+    height: 51.1vh;
+ 
+  }
+  .main-4 img {
+    height: 431px;
+    width: 431px;
+    margin-right: 0px;
+    margin-left: -50px;
+    margin-top: 0px;
+  }
+
+  /* MAIN-5 */
+
+  .main-5 {
+    height: 160vh;
+    width: 100%;
+  }
+  .portion6 {
+    height: 10%;
+    width: 100%;
+    font-size: 45px;
+  }
+  .portion7 {
+    height: 150%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .subpor4,
+  .subpor5,
+  .subpor6,
+  .subpor7 {
+    margin-top: 10px;
+    height: 30%;
+    width: 100%;
+  }
+
+  .subpor4:hover,
+  .subpor5:hover,
+  .subpor6:hover,
+  .subpor7:hover {
+    width: 80%;
+  }
+
+  #portxt1 {
+    text-align: center;
+    font-size: 15px;
+    transform: rotate(270deg);
+  }
+
+  /* MAIN-6 */
+
+  .main-6 {
+    width: 100%;
+    height: 80vh;
+  }
+  .portion8 {
+    height: 250px;
+    width: 100%;
+  }
+  .portion8 p {
+    width: 80%;
+    font-size: 40px;
+  }
+
+  .portion9 {
+    height: 49vh;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #subimg1 img {
+    height: 200px;
+    width: 120%;
+  }
+  #subimg2 {
+    height: 210px;
+    width:76%;
+    margin-left: 10px;
+    z-index: 1;
+  }
+  #subimg3 {
+    height: 210px;
+    width: 66%;
+    margin-top: -15px;
+  }
+  #subimg4 img {
+    height: 190px;
+    width: 120%;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  #subimg5 {
+    position: relative;
+  }
+  #subimg5 img {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: 380px;
+    right: 470px;
+  }
+
+  #subimg2:hover img {
+    height: 210px;
+    width: 100%;
+  }
+  #subimg3:hover img {
+    height: 210px;
+    width: 100%;
+  }
+
+  /* MAIN-7 */
+
+  .main-7 {
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+  }
+  .portion10 {
+    height: 150px;
+    width: 100%;
+    font-size: 45px;
+  }
+  .portion11 {
+    height: 80px;
+    width: 100%;
+    font-size: 30px;
+  }
+  .portion11 span {
+    height: 50px;
+    width: 140px;
+    margin: 0px 10px 0px 10px;
+    padding-top: 4px;
+  }
+  .preportion12 {
+    height: 400px;
+    width: 100%;
+  }
+  .portion12 {
+    height: 400px;
+    width: 170%;
+  }
+
+  .subpor8 {
+    height: 350px;
+    width: 60%;
+  }
+  #por8txt1 {
+    font-size: 30px;
+  }
+  #por8txt2 {
+    padding: 15px;
+    width: 80%;
+    font-size: 20px;
+  }
+  #por8txt3 {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+ 
+
+  /* MAIN-9 */
+  .main-9{
+    height: 550px;
+  }
+  .main-9 .data {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .main-9 .data .det p {
+    font-size: 25px;
+    font-weight: 500;
+    width: 70%;
+  }
+
+  .main-9 .data .det i {
+    font-size: 25px;
+  }
+}

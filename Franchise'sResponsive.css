@@ -1,0 +1,463 @@
+@media  (min-width: 320px) and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .main{
+        height: 480px;
+        width: 100%;
+      }
+      /* HEADER  */
+      .header {
+        height: 80px;
+        width: 100%;
+      }
+      .p {
+        font-size: 11px;
+      }
+    
+      /* NAVIGATION  */
+      .nav {
+        height: 400px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .nav a > img {
+        height: 65px;
+        width: 170px;
+      }
+      .links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-top: 20px;
+      }
+      .links a {
+        font-size: 20px;
+      }
+      .part1,
+      .part2 {
+        padding: 10px;
+      }
+      .dropdown-content {
+        min-width: 100px;
+      }
+    
+      .dropdown-content a {
+        font-size: 16px;
+      }
+    
+    .dropdown:hover .dropdown-content {
+        display: inline;
+    }
+    /* FRANCHISES */
+    section{
+        width: 100%;
+    }
+    .section-content{
+        margin-top: 2px;
+        height: 100%;
+        width: 50%;
+    }
+    .max-w{
+        max-width: 100%;
+        margin: 30px;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+    }
+    .content h2{
+        line-height: 45px;
+        font-size: 40px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+    }
+    .content p{
+        color: #fff;
+        font-size: 20px;
+        line-height: 35px;
+        width: 100%;
+        font-weight: 100;
+    }
+    .Enquiry{
+        width: 100%;
+        height: auto;
+    }
+    form{
+        width: 80%;
+    }
+    input{
+        width: 100%;
+        font-size: 20px;
+        
+    }
+    textarea{
+        width: 100%;
+        height: 80px;
+
+    }
+    .firstR {
+        width: 100%;
+        gap: 15px;
+        display: inline-block;
+    }
+    #nm input[type="text"] {
+        width: 100%;
+        height: 40px;
+    }
+    #em input[type="email"]{
+        width: 100%;
+        height: 40px;
+    }
+    .secondR{
+        width: 100%;
+    }
+    .thirdR #lbl{
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .SC{
+        width: 100%;
+        display: inline-block;
+        gap: 15px;
+    }
+    .SC #st input[type="text"]{
+        width: 100%;
+    }
+    .SC #ct input[type="text"]{
+        width: 100%;  
+    }
+    .send{
+        width: 100%;
+    }
+    input[type="submit"]{
+        width: 100%;
+        display: inline-block;
+    }
+    /* FOOTER */
+    .footer{
+        height:200vh;
+        width: 100%;
+        background-color: rgba(42, 42, 42, 0.999);
+        display: flex;
+        flex-direction: column;
+    }
+    .por1{
+        height: 350px;
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    #text1{
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+    #text2 img{
+        height: 110px;
+        width: 110px;
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+   
+    #text3 input{
+        height: 50px;
+        width: 300px;
+        padding-left: 20px;
+    }
+    .sub2 img{
+        margin-left: -50px;
+        height: 50px;
+        width: 50px ;
+    }
+    .sub3{
+        align-items: center;
+    }
+    .sub3 i{
+        padding: 10px;
+        font-size: 40px;
+    }
+    
+    .por2{
+        height: 350px;
+        width: 100%;
+    }
+    .text4{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top:10px;
+    }
+    .text5{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text6{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text7{
+        width: 100%;
+        text-align: center;
+    }
+    .text7 img{
+        height: 100px;
+        width: 200px;
+        margin-top: 100px;
+    }
+    .sub4{
+        height: 0px;
+        width: 100%;
+    }
+    .sub4 p{
+        margin-left: 40px;
+    }
+}
+/* RESPONSIVE 481 TO 768 :-  */
+@media (min-width: 481px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* main */
+      .main{
+        height: 480px;
+        width: 100%;
+      }
+      /* HEADER  */
+      .header {
+        height: 80px;
+        width: 100%;
+      }
+      .p {
+        font-size: 15px;
+      }
+    
+      /* NAVIGATION  */
+      .nav {
+        height: 180px;
+        width: 100%;
+        flex-direction: column;
+      }
+      .nav a > img {
+        height: 80px;
+        width: 180px;
+        margin-top: 20px;
+      }
+      .links {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: row;
+        margin-right: 0px;
+        margin-top: 0px;
+      }
+      .links a {
+        font-size: 16px;
+      }
+      .part1,
+      .part2 {
+        padding: 10px;
+      }
+      .dropdown-content {
+        min-width: 120px;
+      }
+    
+      .dropdown-content a {
+        font-size: 18px;
+      }
+    
+      .dropdown:hover .dropdown-content {
+        display: block;
+      } 
+       /* FRANCHISES */
+    section{
+        width: 100%;
+    }
+    .section-content{
+        margin-top: 2px;
+        height: 100%;
+        width: 50%;
+    }
+    .max-w{
+        max-width: 100%;
+        margin: 30px;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+    }
+    .content h2{
+        line-height: 45px;
+        font-size: 45px;
+    }
+    .content p{
+        color: #fff;
+        font-size: 20px;
+        line-height: 35px;
+        width: 100%;
+        font-weight: 100;
+    }
+    .Enquiry{
+        width: 100%;
+        height: 100vh;
+    }
+    form{
+        width: 80%;
+        display: inline-block;
+    }
+    input{
+        width: 100%;
+        font-size: 22px; 
+    }
+    textarea{
+        width: 100%;
+        height: 80px;
+    }
+    .firstR {
+        width: 100%;
+        gap: 15px;
+        display: inline-block;
+    }
+    #nm input[type="text"] {
+        width: 100%;
+        height: 40px;
+    }
+    #em input[type="email"]{
+        width: 100%;
+        height: 40px;
+    }
+    .secondR{
+        width: 100%;
+    }
+    .thirdR #lbl{
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .SC{
+        width: 100%;
+        display: inline-block;
+        gap: 15px;
+    }
+    .SC #st input[type="text"]{
+        width: 100%;
+    }
+    .SC #ct input[type="text"]{
+        width: 100%;  
+    }
+    .send{
+        width: 100%;
+    }
+    input[type="submit"]{
+        width: 100%;
+        display: inline-block;
+    }
+    /* FOOTER */
+    .footer{
+        height: 200vh;
+        width: 100%;
+        background-color: rgba(42, 42, 42, 0.999);
+        display: flex;
+        flex-direction: column;
+    }
+    .por1{
+        height: 450px;
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .sub1{
+        width: 100%;
+    }
+    #text1{
+        width: 40%;
+        height: 50px;
+        font-size: 35px;
+        margin-top: 30px;
+        margin-left:150px;
+    }
+    #text2{
+        width: 100%;
+    }
+    #text2 img{
+        height: 130px;
+        width: 130px;
+        margin-right:15px;
+    }
+   
+    #text3 input{
+        height: 60px;
+        width: 380px;
+        padding-left: 40px;
+    }
+    .sub2 img{
+        margin-left: -60px;
+        height: 60px;
+        width: 60px ;
+    }
+    .sub3 i{
+        padding: 15px;
+        font-size: 40px;
+    }
+
+    .por2{
+        height: 350px;
+        width: 100%;
+    }
+    .text4{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top:10px;
+    }
+    .text5{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text6{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text7{
+        width: 100%;
+        text-align: center;
+    }
+    .text7 img{
+        height: 120px;
+        width: 200px;
+        margin-top: 50px;
+    }
+    .sub4{
+        height: 0px;
+        width: 100%;
+    }
+    .sub4 p{
+        margin-left: 180px;
+    }
+}

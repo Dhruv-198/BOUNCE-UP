@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  height:150px;
+  width: 100%;
+}
+/* HEADER  */
+.header {
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(black, rgba(120, 0, 161, 1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p {
+  color: white;
+  font-weight: bold !important;
+  font-size: 18px;
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+/* NAVIGATION  */
+.nav-img{
+  height: 100vh;
+  width: 100%;
+  background-image: url("Image/main-vado.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;  
+}
+.nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a > img {
+  height: 65px;
+  width: 170px;
+  margin-left: 50px;
+}
+.links {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+}
+.links a {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 5.25px;
+  color: white;
+}
+.part1,
+.part2 {
+  padding: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9747ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #9747ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn i:hover {
+  transform: rotate(180deg);
+}
+
+
+/* LATTER */
+
+.latter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.latter p{
+  height: 460px;
+  width: 40%; 
+  font-size:200px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color:rgb(215, 167, 78);
+}
+.latter p span{
+  color: rgb(165, 97, 229);
+}
+
+.latter1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+.sgu{
+  position: relative;
+}
+.sgu button{
+  position: absolute;
+  left: 10px;
+  top: -7px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  font-size: 30px;
+  color:white;
+  background-color: rgb(215, 167, 78);
+}
+
+.sgu1{
+  margin-top: 30px;
+}
+.sgu1 button{
+  width: 170px;
+  height: 55px;
+  font-size: 18px;
+  padding-left: 40px;
+  border-radius: 30px;
+  background-color:  rgb(165, 97, 229);
+  color: white;
+}
+.sgu2{
+  margin-top: 35px;
+  margin-left: 25px;
+}
+.sgu2 a{
+  color: white;
+  font-size: 25px;
+}
+.latter2{
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+#img1{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 16px;
+  background-color: #7800A1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 5%;
+  position: fixed;
+  z-index: 100;
+}
+#img2{
+  position: absolute;
+  left: 90%;
+  position: fixed;
+  z-index: 100;
+}
+#img2:hover{
+  transform: scale(1.2);
+}
+#img3{
+  height: 250px;
+  width: 400px;
+  background-color: #9747ff;
+  position: absolute;
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+  border-radius: 10px;
+  display: none;
+}
+#img3 p{
+  font-weight: 500 !important;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#img3 button{
+  position: absolute;
+  bottom: 220px;
+  left: 370px;
+  height: 30px;
+  width: 30px;
+  background-color: #7800A1;
+  border-radius: 50%;
+  color: white;
+  font-size: 25px;
+}
+/* RESPONSIV 320 TO 480 :-  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main{
+    height: 150vh;
+    background-color: red;
+    width: 100%;
+  }
+  /* HEADER  */
+  .header {
+    height: 80px;
+    width: 100%;
+  }
+  .p {
+    font-size: 11px;
+  }
+
+  /* NAVIGATION  */
+  .nav-img{
+    height: 85vh;
+    width: 100%;
+    background-image: url("Image/main-vado.webp");
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+  .nav {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav a > img {
+    height: 65px;
+    width: 170px;
+  }
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .links a {
+    font-size: 20px;
+  }
+  .part1,
+  .part2 {
+    padding: 10px;
+  }
+  .dropdown-content {
+    min-width: 100px;
+  }
+
+  .dropdown-content a {
+    font-size: 16px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: inline;
+  }
+
+  /* LATTER */
+
+.latter{
+  width: 100%;
+  margin-top: 0px;
+}
+.latter p{
+  height: 220px;
+  width: 50%; 
+  font-size:70px;
+}
+
+.latter1{
+  height: 0px;
+  width: 100%;
+}
+.sgu{
+  position: relative;
+}
+.sgu button{
+  position: absolute;
+  left: 25px;
+  top: -5px;
+  height: 40px;
+  width: 40px;
+  font-size: 28px;
+}
+
+.sgu1{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.sgu1 button{
+  width: 170px;
+  height: 50px;
+}
+.sgu2{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.sgu2 a{
+  color: white;
+  font-size: 21px;
+}
+.latter2{
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+#img1{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 5%;
+  top: 440px;
+  position: fixed;
+  z-index: 100;
+}
+#img2{
+  position: absolute;
+  left: 80%;
+  top: 440px;
+  position: fixed;
+  z-index: 100;
+}
+#img2 img{
+  height: 65px;
+  width: 65px;
+  margin-top: 0px;
+}
+#img3{
+  height: 210px;
+  width: 300px;
+  position: absolute;
+  position: fixed;
+  bottom: 1300px;
+  left: 35px;
+  display: none;
+}
+#img3 p{
+  font-weight: 500 !important;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#img3 button{
+  position: absolute;
+  bottom: 180px;
+  left: 90%;
+
+}
+}
+
+
+/* RESPONSIV 481 TO 768 :-  */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main{
+    height: 480px;
+    width: 100%;
+  }
+  /* HEADER  */
+  .header {
+    height: 80px;
+    width: 100%;
+  }
+  .p {
+    font-size: 15px;
+  }
+
+  /* NAVIGATION  */
+  .nav {
+    height: 180px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav-img{
+    background-size: 100% 100%;
+    height: 80vh;
+  }
+  .nav a > img {
+    height: 80px;
+    width: 180px;
+    margin-top: 20px;
+  }
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .links a {
+    font-size: 18px;
+  }
+  .part1,
+  .part2 {
+    padding: 10px;
+  }
+  .dropdown-content {
+    min-width: 120px;
+  }
+
+  .dropdown-content a {
+    font-size: 18px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    /* LATTER */
+
+.latter{
+  width: 100%;
+  margin-top: 20px;
+}
+.latter p{
+  height: 170px;
+  width: 25%; 
+  font-size:50px;
+  text-align: center;
+}
+
+.latter1{
+  height: 0px;
+  width: 100%;
+}
+.sgu{
+  position: relative;
+}
+.sgu button{
+  position: absolute;
+  left: 25px;
+  top: -20px;
+  height: 40px;
+  width: 40px;
+  font-size: 28px;
+}
+
+.sgu1{
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.sgu1 button{
+  width: 170px;
+  height: 50px;
+}
+.sgu2{
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.sgu2 a{
+  color: white;
+  font-size: 21px;
+}
+.latter2{
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+#img1{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 5%;
+  top: 640px;
+  position: fixed;
+  z-index: 100;
+}
+#img2{
+  position: absolute;
+  left: 85%;
+  position: fixed;
+  z-index: 100;
+}
+#img2 img{
+  height: 65px;
+  width: 65px;
+  margin-top: -50px;
+}
+#img3{
+  height: 210px;
+  width: 300px;
+  position: absolute;
+  position: fixed;
+  bottom: 220px;
+  left: 50px;
+  display: none;
+}
+#img3 p{
+  font-weight: 500 !important;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#img3 button{
+  position: absolute;
+  bottom: 180px;
+  left: 270px;
+  
+}
+}

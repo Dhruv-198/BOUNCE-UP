@@ -1,0 +1,1204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ----------------------Main */
+.vidmain {
+    width: 100%;
+    height: 1055.25px;
+}
+
+.vidmain video {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.main2 {
+    width: 100%;
+    height: 280vh;
+    background-color: #272727;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.one {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.pricing button {
+
+    width: 190px;
+    height: 90px;
+    border: none;
+    color: white;
+    background-color: #FF3277;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.pricing button:hover{
+    background-color: #0100FE;
+}
+.offers button:hover{
+    background-color: #FF3277;
+}
+
+.act {
+    width: 100%;
+    height: 2510px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 520.48px;
+    
+} */
+.two {
+    width: 77%;
+    background-image: url("Image/prizevadoimg1.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 480px;
+}
+
+.five {
+    width: 77%;
+    display: flex;
+    height: 930px;
+}
+
+.three {
+    width: 48%;
+    background-image: url("Image/prizevadoimg2.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 930px;
+}
+
+.four {
+    width: 48%;
+    background-image: url("Image/prizevadoimg3.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 930px;
+    margin-left: 50px;
+}
+
+.six {
+    width: 77%;
+    display: flex;
+    height: 930px;
+}
+#Nav{
+    background-color: black;
+}
+.seven {
+    width: 48%;
+    background-image: url("Image/prizevadoimg4.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 930px;
+}
+
+.eight {
+    width: 48%;
+    background-image: url("Image/prizevadoimg5.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 930px;
+    margin-left: 50px;
+}
+
+
+
+.nine {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.act2 {
+    width: 100%;
+    height: 1908px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 50px;
+    padding-right: 50px;
+    display: none;
+    padding-left: 400px;
+}
+
+.offers {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.offers button {
+    color: white;
+    background-color: #0100FE;
+    width: 190px;
+    height: 90px;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.offers button a {
+    color: white;
+    background-color: #0100FE;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.ten {
+    width: 77%;
+    background-image: url("Image/prizevadoimg6.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 630px;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+
+.eleven {
+    width: 77%;
+    display: flex;
+    height: 535px;
+}
+
+.twelve {
+    width: 48%;
+    background-image: url("Image/prizevadoimg7.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 535px;
+}
+
+.thirteen {
+    width: 48%;
+    background-image: url("Image/prizevadoimg8.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 535px;
+    margin-left: 50px;
+}
+
+.fourteen {
+    width: 77%;
+    display: flex;
+    height: 540px;
+}
+
+.fifteen {
+    width: 48%;
+    background-image: url("Image/prizevadoimg9.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 540px;
+    margin-top: 50px;
+}
+
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0.999);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.por1 {
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.sub1 {
+    display: flex;
+}
+
+#text1 {
+    width: 35%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: "Neue Haas Unica", sans-serif;
+    margin-top: 20px;
+}
+
+#text2 img {
+    height: 121px;
+    width: 150px;
+    margin-right: 50px;
+}
+
+.sub2 {
+    display: flex;
+}
+
+#text3 input {
+    height: 73px;
+    width: 413px;
+    border: none;
+    background-color: #737373;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+    padding-left: 25px;
+}
+
+.sub2 img {
+    margin-left: -67px;
+}
+
+.sub3 {
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+
+}
+
+.sub3 i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.por2 {
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.text4 {
+    width: 50%;
+    font-size: 23px;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.text4:hover {
+    color: orange;
+}
+
+.text5 {
+    width: 50%;
+    font-size: 20px;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.text6 {
+    width: 50%;
+    font-size: 18px;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.text7 {
+    width: 50%;
+    text-align: end;
+}
+
+.text7 img {
+    height: 75px;
+    width: 150px;
+    margin-top: 100px;
+}
+
+.sub4 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    color: white;
+    background-color: rgba(42, 42, 42, 0.999);
+    font-size: 18px;
+}
+
+.sub4 p {
+    margin-left: 80px;
+}
+
+/* RESPONSIV 320 To 480:- */
+
+@media (min-width:320px) and (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .footer {
+        height: 110vh;
+        width: 100%;
+        background-color: rgba(42, 42, 42, 0.999);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .por1 {
+        height: 350px;
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #text1 {
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    #text2 img {
+        height: 121px;
+        width: 150px;
+        margin-right: 50px;
+    }
+
+    #text3 input {
+        height: 50px;
+        width: 350px;
+        padding-left: 30px;
+    }
+
+    .sub2 img {
+        margin-left: -50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .sub3 {
+        align-items: center;
+
+    }
+
+    .sub3 i {
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    .por2 {
+        height: 350px;
+        width: 100%;
+    }
+
+    .text4 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text5 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text6 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text7 img {
+        height: 100px;
+        width: 200px;
+        margin-top: 100px;
+    }
+
+    .sub4 {
+        height: 100px;
+        width: 100%;
+    }
+
+    .sub4 p {
+        margin-left: 40px;
+    }
+
+}
+
+/* RESPONSIV 481 To 768:- */
+
+@media (min-width:481px) and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .footer {
+        height: 110vh;
+        width: 100%;
+        background-color: rgba(42, 42, 42, 0.999);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .por1 {
+        height: 450px;
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .sub1 {
+        width: 100%;
+    }
+
+    #text1 {
+        width: 40%;
+        height: 50px;
+        font-size: 35px;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+
+    #text2 {
+        width: 100%;
+    }
+
+    #text2 img {
+        margin-right: 0px;
+    }
+
+    #text3 input {
+        height: 60px;
+        width: 380px;
+        padding-left: 40px;
+    }
+
+    .sub2 img {
+        margin-left: -60px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .sub3 i {
+        padding: 15px;
+        font-size: 40px;
+    }
+
+    .por2 {
+        height: 350px;
+        width: 100%;
+    }
+
+    .text4 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text5 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text6 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text7 img {
+        height: 120px;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .sub4 {
+        height: 100px;
+        width: 100%;
+    }
+
+    .sub4 p {
+        margin-left: 180px;
+    }
+
+}
+
+
+                                               /* MOBILE RESPONSIVE -- 320PX TO 480PX */
+                                               @media (min-width:320px) and (max-width:480px) {
+    .vidmain{
+        width: 100%;
+        height: 270px;
+    }
+    .vidmain{
+        width: 100%;
+        /* height: 100vh; */
+    }
+    .main2{
+        width: 100%;
+        height: 80vh;
+        background-color: #272727;
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .one{
+        height: 70px;
+        width: 100%;
+        display: flex;
+    }
+    .pricing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 100px; */
+        /* margin-top: 20px; */
+        width: 140px;
+        height: 90px;
+    
+    }
+    .pricing button{
+        
+        width: 100px;
+        height: 50px;
+        border: none;
+        color: white;
+        background-color: #FF3277;
+        border-radius: 40px;
+    }
+    .pricing button {
+        color: white;
+        background-color: #FF3277;
+        border-radius: 40px;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    
+    .act{
+        width: 100%;
+        height: 615px;
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .two {
+        width: 77%;
+        background-image: url("Image/prizevadoimg1.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 120px; 
+    }
+    
+    .five{
+        width: 77%;
+        display: flex;
+        height: 205px;
+    }
+    .three{
+        width: 48%;
+        background-image: url("Image/prizevadoimg2.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 205px;
+    }
+    .four{
+        width: 48%;
+        background-image: url("Image/prizevadoimg3.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 205px;
+        margin-left: 25px;
+    }
+    .six{
+        width: 77%;
+        display: flex;
+        height: 205px;
+    }
+    .seven{
+        width: 48%;
+        background-image: url("Image/prizevadoimg4.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 205px;
+    }
+    .eight{
+        width: 48%;
+        background-image: url("Image/prizevadoimg5.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 205px;
+        margin-left: 25px;
+    }
+    .nine{
+        height: 100px;
+        width: 100%;
+        display: flex;
+    }
+    .act2{
+        width: 100%;
+        height: 590px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+        padding-left: 95px;
+        padding-right: 20px;
+        margin-top: 50px;
+        display: none;
+    }
+    .offers{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        /* margin-left: 100px; */
+    }
+    .offers button{
+        color: white;
+        background-color: #0100FE;
+        width: 100px;
+        height: 50px;
+        border: none;
+        border-radius: 40px;
+        font-size: 17px;
+    }
+    
+    .offers button a{
+        color: white;
+        background-color: #0100FE;
+        text-decoration: none;
+        border-radius: 40px;
+        font-size: 17px;
+    }
+    .ten {
+        width: 77%;
+        background-image: url("Image/prizevadoimg6.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 192px; 
+        padding: 2px;
+        margin-bottom: 0;
+    }
+    .eleven{
+        width: 77%;
+        display: flex;
+        height: 158px;
+    }
+    .twelve{
+        width: 48%;
+        background-image: url("Image/prizevadoimg7.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 158px;
+    }
+    .thirteen{
+        width: 48%;
+        background-image: url("Image/prizevadoimg8.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 158px;
+        margin-left: 25px;
+    }
+    .fourteen{
+        width: 77%;
+        display: flex;
+        height: 165px;
+    }
+    .fifteen{
+        width: 48%;
+        background-image: url("Imageprizevado/img9.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 165px;
+        margin-top: 0;
+    }
+    
+    
+    
+    
+}
+                                                             /* teblet */
+
+   /* TEBLET RESPONSIV -- 481 PX TO 768PX */
+   @media (min-width:481px) and (max-width:768px) {
+   
+    .vidmain{
+        width: 100%;
+        height: 432px;
+    }
+    .vidmain video{
+        width: 100%;
+        /* height: 100vh; */
+    }
+    .main2{
+        width: 100%;
+        height: 130vh;
+        background-color: #272727;
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .one{
+        height: 70px;
+        width: 100%;
+        display: flex;
+    }
+    .pricing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 100px; */
+        margin-top: 0;
+    
+    }
+    .pricing button{
+        
+        width: 90px;
+        height: 40px;
+        border: none;
+        color: white;
+        background-color: #FF3277;
+        border-radius: 40px;
+    }
+    .pricing button {
+        color: white;
+        background-color: #FF3277;
+        border-radius: 40px;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    
+    .act{
+        width: 100%;
+        height: 1037px;
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .two {
+        width: 77%;
+        background-image: url("Image/prizevadoimg1.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 195px; 
+    }
+    
+    .five{
+        width: 77%;
+        display: flex;
+        height: 380px;
+    }
+    .three{
+        width: 48%;
+        background-image: url("Image/prizevadoimg2.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 380px;
+    }
+    .four{
+        width: 48%;
+        background-image: url("Image/prizevadoimg3.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 380px;
+        margin-left: 25px;
+    }
+    .six{
+        width: 77%;
+        display: flex;
+        height: 380px;
+    }
+    .seven{
+        width: 48%;
+        background-image: url("Image/prizevadoimg4.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 380px;
+    }
+    .eight{
+        width: 48%;
+        background-image: url("Image/prizevadoimg5.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 380px;
+        margin-left: 25px;
+    }
+    .nine{
+        height: 100px;
+        width: 100%;
+        display: flex;
+    }
+    .act2{
+        width: 100%;
+        height: 924px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+        padding-left: 150px;
+        padding-right: 20px;
+        display: none;
+        margin-top: 50px;
+    }
+    .offers{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        /* margin-left: 100px; */
+        margin-top: 0;
+    }
+    .offers button{
+        color: white;
+        background-color: #0100FE;
+        width: 90px;
+        height: 40px;
+        border: none;
+        border-radius: 40px;
+        font-size: 17px;
+    }
+    
+    .offers button a{
+        color: white;
+        background-color: #0100FE;
+        text-decoration: none;
+        border-radius: 40px;
+        font-size: 17px;
+    }
+    .ten {
+        width: 77%;
+        background-image: url("Image/prizevadoimg6.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 317px; 
+        padding: 2px;
+        margin-bottom: 0;
+    }
+    .eleven{
+        width: 77%;
+        display: flex;
+        height: 270px;
+    }
+    .twelve{
+        width: 48%;
+        background-image: url("Image/prizevadoimg7.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 270px;
+    }
+    .thirteen{
+        width: 48%;
+        background-image: url("Image/prizevadoimg8.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 270px;
+        margin-left: 25px;
+    }
+    .fourteen{
+        width: 77%;
+        display: flex;
+        height: 270px;
+    }
+    .fifteen{
+        width: 48%;
+        background-image: url("Image/prizevadoimg9.webp");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        height: 270px;
+        margin-top: 0;
+    }
+}
+                     /* header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main{
+    height:150px;
+    width: 100%;
+  }
+  /* HEADER  */
+  .header {
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(black, rgba(120, 0, 161, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p {
+    color: white;
+    font-weight: bold !important;
+    font-size: 18px;
+    font-family: "Playwrite DE Grund", cursive;
+  }
+  
+  /* NAVIGATION  */
+  .nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: BLACK; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav a > img {
+    height: 65px;
+    width: 170px;
+    margin-left: 50px;
+  }
+  .links {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+  }
+  .links a {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5.25px;
+    color: white;
+  }
+  .part1,
+  .part2 {
+    padding: 10px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9747ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 20px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9747ff;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropbtn i:hover {
+    transform: rotate(180deg);
+  }
+  
+  /* RESPONSIV 320 TO 480 :-  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .main{
+      height: 339px;
+      width: 100%;
+    }
+    /* HEADER  */
+    .header {
+      height: 40px;
+      width: 100%;
+    }
+    .p {
+      font-size: 11px;
+    }
+  
+    /* NAVIGATION  */
+    .nav {
+      height: 299px;
+      width: 100%;
+      /* background-color: aqua; */
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav a > img {
+      height: 65px;
+      width: 170px;
+    }
+    .links {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 0px;
+      margin-top: 20px;
+    }
+    .links a {
+      font-size: 20px;
+    }
+    .part1,
+    .part2 {
+      padding: 10px;
+    }
+    .dropdown-content {
+      min-width: 100px;
+    }
+  
+    .dropdown-content a {
+      font-size: 16px;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: inline;
+    }
+  }
+  
+  
+  /* RESPONSIV 481 TO 768 :-  */
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .main{
+      height: 260px;
+      width: 100%;
+    }
+    /* HEADER  */
+    .header {
+      height: 80px;
+      width: 100%;
+    }
+    .p {
+      font-size: 15px;
+    }
+  
+    /* NAVIGATION  */
+    .nav {
+      height: 180px;
+      width: 100%;
+      flex-direction: column;
+    }
+    .nav a > img {
+      height: 80px;
+      width: 180px;
+      margin-top: 20px;
+    }
+    .links {
+      width: 100%;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      flex-direction: row;
+      margin-right: 0px;
+      margin-top: 0px;
+    }
+    .links a {
+      font-size: 18px;
+    }
+    .part1,
+    .part2 {
+      padding: 10px;
+    }
+    .dropdown-content {
+      min-width: 120px;
+    }
+  
+    .dropdown-content a {
+      font-size: 18px;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+  

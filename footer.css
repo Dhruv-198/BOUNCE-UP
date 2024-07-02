@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0.999);
+    background-image: url("Image/footerback.webp");
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    background-position: center;
+    background-position: top;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.por1{
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.sub1{
+    width: 80%;
+    display: flex;
+}
+#text1{
+    width: 35%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: "Neue Haas Unica",sans-serif;
+    margin-top: 20px;
+}
+#text2 img{
+    height: 121px;
+    width: 150px;
+    margin-right: 80px;
+}
+.sub2{
+    display: flex;
+}
+
+#text3 input{
+    height: 73px;
+    width: 413px;
+    border: none;
+    background-color: #737373;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+    padding-left: 25px;
+}
+.sub2 img{
+    margin-left: -67px;
+}
+.sub3{
+    height: 200px;
+    display: flex;
+    justify-content:start;
+    align-items: end;
+   
+}
+.sub3 i{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.por2{
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+.text4{
+    width: 50%;
+    font-size: 23px;
+    text-align: end;
+    margin-top: 10px;
+}
+.text4:hover{
+    color: orange;
+}
+.text5{
+    width: 50%;
+    font-size: 20px;
+    text-align: end;
+    margin-top: 10px;
+}
+.text6{
+    width: 50%;
+    font-size: 18px;
+    text-align: end;
+    margin-top: 10px;
+}
+.text7{
+    width: 50%;
+    text-align: end;
+}
+.text7 img{
+    height: 75px;
+    width: 150px;
+    margin-top: 100px;
+}
+.sub4{
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+.sub4 p{
+    margin-left: 80px;
+}
+
+/* RESPONSIV 320 To 480:- */
+
+@media (min-width:320px) and (max-width:480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .footer{
+        height: 150vh;
+        width: 100%;
+        background-color: rgba(42, 42, 42, 0.999);
+        background-size: 80% 10%;
+        background-position: bottom;
+        display: flex;
+        flex-direction: column;
+    }
+    .por1{
+        height: 350px;
+        width: 88%;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    #text1{
+        width: 90%;
+        height: 50px;
+        font-size: 30px;    
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    #text2 img{
+        margin-right:30px;
+    }
+    #text3{
+        margin-left: -50px;
+    }
+    #text3 input{
+        height: 50px;
+        width: 350px;
+        padding-left: 35px;
+    }
+    .sub1{
+        width: 100%;
+     
+        margin-left: -100px;
+    }
+    .sub2 img{
+        margin-left: -12%;
+        height: 50px;
+        width: 50px ;
+        margin-top: 5px;
+    }
+    .sub3{
+        height: 150px;
+        align-items: center;
+        width:50%;
+        
+    }
+    .sub3 i{
+        padding: 10px;
+        font-size: 40px;
+        align-items: center;
+    }
+    
+    .por2{
+        height: 350px;
+        width: 100%;
+        margin-bottom: 120px;
+    }
+    .text4{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top:10px;
+    }
+    .text5{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text6{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text7{
+        height: 0px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(42, 42, 42, 0.999);
+    }
+    .text7 img{
+        height: 100px;
+        width: 200px;
+        margin-top: 30px;
+        background-color: rgba(42, 42, 42, 0.999);
+    }
+    .sub4{
+        height: 0px;
+        width: 80%;
+        font-size: 15px;
+        background-color: rgba(42, 42, 42, 0.999);
+    }
+    .sub4 p{
+        margin-left: 0px;
+    }
+    
+}
+
+/* RESPONSIV 481 To 768:- */
+
+@media (min-width:481px) and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .footer{
+        height: 150vh;
+        width: 100%;
+        background-color: rgba(42, 42, 42, 0.999);
+        display: flex;
+        flex-direction: column;
+    }
+    .por1{
+        height: 450px;
+        width: 90%;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .sub1{
+        width: 100%;
+    }
+    #text1{
+        width: 40%;
+        height: 50px;
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left:140px;
+    }
+    #text2{
+        width: 100%;
+    }
+    #text2 img{
+        margin-right:0px;
+        margin-left: 30px;
+    }
+   
+    #text3 input{
+        height: 60px;
+        width: 460px;
+        padding-left: 40px;
+    }
+    .sub2 img{
+        margin-left: -60px;
+        height: 60px;
+        width: 60px ;
+    }
+    .sub3{
+        text-align: center;
+        height: 130px;
+    }
+    .sub3 i{
+        padding: 15px;
+        font-size: 40px;
+    }
+
+    .por2{
+        height: 350px;
+        width: 100%;
+    }
+    .text4{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top:10px;
+    }
+    .text5{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text6{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text7{
+        width: 100%;
+        text-align: center;
+    }
+    .text7 img{
+        height: 120px;
+        width: 200px;
+        margin-top: 50px;
+    }
+    .sub4{
+        height: 100px;
+        width: 88%;
+    }
+    .sub4 p{
+        margin-top: 80px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+}

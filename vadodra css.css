@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* =================================================GROUP1 ================================================== */
+
+    .GROUP1 {
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+      }
+
+  /*================================ HEADER ========================= */
+  .header {
+    height: 5%;
+    width: 100%;
+    background-image: linear-gradient(black, rgba(120, 0, 161, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .p {
+    color: white;
+    font-weight: bold !important;
+    font-size: 18px;
+    font-family: "Playwrite DE Grund", cursive;
+  }
+  
+  /* ============================NAVIGATION ==================== */
+  .nav {
+    height: 10%;
+    width: 100%;
+   
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #Nav{
+ background-color: rgb(38, 38, 38);
+  }
+  .nav a>img {
+    height: 65px;
+    width: 170px;
+    margin-left: 50px;
+  }
+  
+  .links {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+  }
+  
+  .links a {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5.25px;
+    color: white;
+  }
+  
+  .part1,
+  .part2 {
+    padding: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9747ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9747ff;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn i:hover {
+    transform: rotate(180deg);
+  }
+  
+
+  .GROUP1 .images {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+  .GROUP1 .images #one {
+    height: 100%;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .GROUP1 .images #two {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+  } 
+
+  .GROUP1 .images #three {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+  } 
+
+/* =====================================================group 2=================================================== */
+
+.GROUP2 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.GROUP2 .images {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+  .GROUP2 .images #one {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+  }
+
+  .GROUP2 .images #two {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+  } 
+
+  .GROUP2 .images #three {
+    height: 100%;
+    width: 60%;
+    padding: 20px;
+  } 
+
+  /* =========================================================group3================================================= */
+
+  .GROUP3 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+  }
+
+  .GROUP3 .images {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+  .GROUP3 .images #one {
+    height: 100%;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .GROUP3 .images #two {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+  } 
+
+  .GROUP3 .images #three {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+  } 
+
+/* ==============================================================group 4======================================= */
+
+.GROUP4 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.GROUP4 .video {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.GROUP4 .video video {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+
+  /* ==================================================footer =========================================*/
+.footer{
+    height: 750px;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    background-image: url(Image/footerback.webp);
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .por1{
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: 150px;
+  }
+  
+  .sub1{
+    display: flex;
+  }
+  #text1{
+    width: 35%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: "Neue Haas Unica",sans-serif;
+    margin-top: 20px;
+  }
+  #text2 img{
+    height: 121px;
+    width: 150px;
+    margin-right: 50px;
+  }
+  .sub2{
+    display: flex;
+  }
+  
+  #text3 input{
+    height: 73px;
+    width: 413px;
+    border: none;
+    background-color: #737373;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+    padding-left: 25px;
+  }
+  .sub2 img{
+    margin-left: -67px;
+  }
+  .sub3{
+    height: 200px;
+    display: flex;
+    justify-content:start;
+    align-items: end;
+   
+  }
+  .sub3 i{
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .por2{
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 150px;
+    margin-right: 50px;
+  }
+  .text4{
+    width: 50%;
+    font-size: 23px;
+    text-align: end;
+    margin-top: 10px;
+  }
+  .text4:hover{
+    color: orange;
+  }
+  .text5{
+    width: 50%;
+    font-size: 20px;
+    text-align: end;
+    margin-top: 10px;
+  }
+  .text6{
+    width: 50%;
+    font-size: 18px;
+    text-align: end;
+    margin-top: 10px;
+  }
+  .text7{
+    width: 50%;
+    text-align: end;
+  }
+  .text7 img{
+    height: 75px;
+    width: 150px;
+    margin-top: 100px;
+  }
+  .sub4{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    color: white;
+    background-color: rgba(42, 42, 42, 0.999);
+    font-size: 18px;
+  }
+  .sub4 p{
+    margin-left: 80px;
+  }

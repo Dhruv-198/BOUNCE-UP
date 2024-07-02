@@ -1,0 +1,343 @@
+@media (min-width:320px) and (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* =====================================================group1============================================== */
+
+    .GROUP1 {
+        height: 300vh;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+      }
+
+    /* HEADER  */
+    .header {
+        height: 80px;
+        width: 100%;
+    }
+
+    .p {
+        font-size: 11px;
+    }
+
+    /* NAVIGATION  */
+    .nav {
+        height: 400px;
+        width: 100%;
+        /* background-color: rgb(38, 38, 38); */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav a>img {
+        height: 65px;
+        width: 170px;
+    }
+
+    .links {
+        height: 280px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .links a {
+        font-size: 20px;
+    }
+
+    .part2 {
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .part1,
+    .part2 {
+        padding: 10px;
+    }
+
+    .dropdown-content {
+        min-width: 100px;
+    }
+
+    .dropdown-content a {
+        font-size: 16px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: inline;
+    }
+
+    .GROUP1 .images {
+        height: 85%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 50px;
+    }
+
+    .GROUP1 .images #one {
+        height: 50%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .GROUP1 .images #two {
+        height: 50%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .GROUP1 .images #three {
+        height: 80%;
+        width: 100%;
+        padding: 20px;
+    }
+
+/* =====================================================group 2=================================================== */
+
+.GROUP2 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.GROUP2 .images {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    padding: 50px;
+  }
+
+  .GROUP2 .images #one {
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .GROUP2 .images #two {
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+  } 
+
+  .GROUP2 .images #three {
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+  } 
+
+  /* =========================================================group3================================================= */
+
+  .GROUP3 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+  }
+
+  .GROUP3 .images {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 50px;
+  }
+
+  .GROUP3 .images #one {
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .GROUP3 .images #two {
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+  } 
+
+  .GROUP3 .images #three {
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+  } 
+
+/* ==============================================================group 4======================================= */
+
+.GROUP4 {
+    height: 250vh;
+    width: 100%;
+    background-color: black;
+}
+
+.GROUP4 .video {
+
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.GROUP4 .video #four {
+    height: 50%;
+    width: 80%;
+    object-fit: fill;
+    margin-left: 10%;
+}
+.GROUP4 .video #five {
+    height: 50%;
+    width: 80%;
+    object-fit: fill;
+    margin-left: 10%;
+}
+
+.GROUP4 .video #four video {
+    height: 80%;
+    width: 80%;
+    object-fit: fill;
+    margin-left: 10%;
+}
+.GROUP4 .video #five video {
+    height: 80%;
+    width: 80%;
+    object-fit: fill;
+    margin-left: 10%;
+}
+
+
+    /* ====================================================FOOTER============================================ */
+    .footer {
+        height: 150vh;
+        width: 100%;
+        background-color: rgb(38, 38, 38);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .por1 {
+        height: 350px;
+        width: 90%;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #text1 {
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    #text2 img {
+        height: 121px;
+        width: 150px;
+        margin-right: 50px;
+    }
+
+    #text3 input {
+        height: 50px;
+        width: 350px;
+        padding-left: 30px;
+    }
+
+    .sub2 img {
+        margin-left: -50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .sub3 {
+        align-items: center;
+
+    }
+
+    .sub3 i {
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    .por2 {
+        height: 350px;
+        width: 90%;
+    }
+
+    .text4 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text5 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text6 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .text7 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text7 img {
+        height: 100px;
+        width: 200px;
+        margin-top: 100px;
+    }
+
+    .sub4 {
+        height: 100px;
+        width: 100%;
+    }
+
+    .sub4 p {
+        margin-left: 40px;
+    }
+
+    .part2 {
+        width: 50%;
+        height: 300px;
+        margin-top: 5px;
+    }
+
+    .part3 img {
+        height: 500px;
+        width: 100%;
+
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .part3 {
+
+        height: 500px;
+        width: 100%;
+
+    }
+
+}

@@ -1,0 +1,218 @@
+  /* RESPONSIV 320 TO 480 :-  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* HEADER */
+    .main{
+      height: 480px;
+      width: 100%;
+    }
+    /* HEADER  */
+    .header {
+      height: 80px;
+      width: 100%;
+    }
+    .p {
+      font-size: 11px;
+      background-color: none;
+    }
+    /* NAVIGATION  */
+    .nav {
+      height: 400px;
+      width: 100%;
+      /* background-color: aqua; */
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav a > img {
+      margin-left: 160px;
+      height: 65px;
+      width: 170px;
+    }
+    .links {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 0px;
+      margin-top: 20px;
+    }
+    .links a {
+      font-size: 20px;
+    }
+    .part1,
+    .part2 {
+      padding: 10px;
+    }
+    .dropdown-content {
+      min-width: 100px;
+    }
+  
+    .dropdown-content a {
+      font-size: 16px;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: inline;
+    }
+    /* PARTIES */
+    .AV{
+        width: 100%;
+        height: 150vh;
+    }
+    .ca-main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        width: 100%;
+        height: 40vh;
+        padding-left: 80px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .text p,h3{
+        margin-top: 10px;
+    }
+    .address{
+        width: 100%;
+        height: 50vh;
+    }
+    .vdr{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .img1{
+      width: 100%;
+    }
+    h4{
+        margin-top: 15px;
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
+    }
+    .prg{
+        width: 100%;
+        padding-top: 15px;
+        font-size: 22px;
+    }
+    a{
+      width: 100%;
+      padding-top: 15px;
+      font-size: 21px;
+    }
+    .contact{
+      width: 100%;
+      margin-top: 20px;
+    }
+    .btn{
+      padding-top: 15PX;
+      width: 120px;
+      height: 40px;
+    }
+  }
+   /* RESPONSIVE 481 TO 768 :-  */
+   @media (min-width: 481px) and (max-width: 768px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .AV{
+        width: 100%;
+        height: 153vh;
+    }
+    .ca-main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        width: 100%;
+        height: 40vh;
+        padding-left: 80px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .text p,h3{
+        margin-top: 10px;
+    }
+    .address{
+        width: 100%;
+        height: 55vh;
+        margin-top: 15px;
+    }
+    .vdr{
+        height: 40vh;
+        width: 100%;
+    }
+    .img1{
+      width: 100%;
+    }
+    h4{
+        margin-top: 15px;
+        font-size: 26px;
+        width: 100%;
+
+    }
+    .prg{
+        width: 100%;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .contact{
+      width: 100%;
+      margin-top: 20px;
+    }
+    .nav {
+      height: 100px;
+      width: 100%;
+      /* background-color:#272727; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+    }
+    .nav a > img {
+      height: 65px;
+      width: 170px;
+      margin-left: 300px;
+      margin-top: 10px;
+    }
+    .links {
+  width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .links a {
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 5.25px;
+      color: white;
+    }
+    .ahe{
+      margin-top: 250px;
+    }
+  }
